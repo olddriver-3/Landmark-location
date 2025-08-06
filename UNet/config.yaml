@@ -1,0 +1,11 @@
+num_input_channels: 3
+first_layer_channels: 32
+num_classes: 8
+learning_rate: 0.001
+batch_size: 8
+num_epochs: 50
+device: cuda
+train_data_path: ./data/train_images
+train_label_path: ./data/train_labels
+val_data_path: ./data/val_images
+val_label_path: ./data/val_labels
